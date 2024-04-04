@@ -4,7 +4,7 @@ const Dotenv = require('dotenv-webpack')
 const deps = require('./package.json').dependencies
 module.exports = (_, argv) => ({
   output: {
-    publicPath: 'https://picker-app-mf-colorpicker.onrender.com/',
+    publicPath: 'https://main--legendary-strudel-f2c6f5.netlify.app/',
     // publicPath: 'http://localhost:3001/',
   },
 
